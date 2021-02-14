@@ -1,0 +1,52 @@
+.basketitem
+{
+    display: flex;
+    position:relative;
+    padding:10px;
+    width:650px;
+    margin-top:1.5rem;
+    border:1px solid black;
+    border-radius:12px;
+}
+.basketitem-image
+{
+    padding:5px;
+}
+
+.basketitem-image > img
+{
+    object-fit: contain;
+    width:180px;
+}
+.basketitem-info
+{
+    padding:10px;
+}
+
+.basketitem-info > p:nth-child(1){
+    font-size: 20px;
+    width:180px;
+    font-weight: 800;
+}
+
+.basketitem-info > p:nth-child(2){
+    margin-top:2rem;
+    padding:10px;
+}
+
+.basketitem-button
+{
+    position:absolute;
+    bottom:20px;
+    right:20px;
+}
+
+.basketitem-button > button
+{
+    padding:10px;
+    font-size:1rem;
+    border:1px solid black;
+    outline:none;
+    width:180px;
+    cursor:pointer;
+}

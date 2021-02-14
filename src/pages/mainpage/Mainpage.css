@@ -1,0 +1,66 @@
+
+.mainpage__title
+{
+    padding:10px;
+    font-size:2rem;
+    margin:10px;
+}
+.mainpage__buttons
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.mainpage__dropdown
+{
+    padding:10px;
+}
+.mainpage__dropdown > select{
+    padding:10px;
+    font-size:1.2rem;
+    cursor:pointer;
+}
+
+.mainpage__basketButton
+{
+    position: relative;
+    margin-right:30px;
+}
+
+.mainpage__basketButton > a
+{
+    padding:12px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:1.2rem;
+    outline:none;
+    background-color: transparent;
+    border:2px solid black;
+    border-radius: 5px;
+    color:black;
+    cursor:pointer;
+}
+
+
+
+
+.basketIcon
+{
+padding-left:10px;
+}
+
+.mainpage__content
+{
+    border:1px solid gray;
+    display:grid;
+    padding:10px;
+    padding-left:30px;
+    grid-template-columns: repeat(3,1fr);
+    row-gap:10px;
+    box-shsdow:0 0 3px gray;
+}
